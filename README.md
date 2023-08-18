@@ -9,7 +9,7 @@ Neste arquivo explicaremos como fazer a ligação de cada sensor com o arduino. 
 
 
 # Sensor de Turbidez Arduino ST100
-![Conexão do sensor de turbidez](turbidez.png)
+![Conexão do sensor de turbidez](figs/turbidez.png)
 
 Fonte: https://www.usinainfo.com.br/blog/sensor-de-turbidez-projeto-de-leitura-da-qualidade-da-agua/
 
@@ -20,7 +20,7 @@ Analog output (A) é a porta para leitura do arduino, no código de exemplo est�
 As portas Level output (D) e Power "-" (4, no lado do sensor) não serão usadas nesse tutorial.
 
 # Sensor de PH Arduino PH-4502C
-![Conexão do sensor de PH](PH.png)
+![Conexão do sensor de PH](figs/PH.png)
 
 Fonte: https://www.usinainfo.com.br/blog/sensor-de-ph-arduino-como-calibrar-e-configurar/
 
@@ -37,7 +37,7 @@ Para o segundo código, a variável valor_calibracao deve ser ajustada em uma su
 
 # Sensor de Condutividade da Água TDS Meter V1.0
 
-![Conexão do sensor de TDS](TDS.png)
+![Conexão do sensor de TDS](figs/TDS.png)
 
 Fonte: https://www.usinainfo.com.br/blog/projeto-medidor-de-tds-arduino-para-condutividade-da-agua/
 
@@ -47,8 +47,9 @@ A saída do sensor deverá ser conectada na porta A0 do arduino.
 
 # Sensor de Temperatura com NTC 10K à Prova D'Água - MF58
 
-![Conexão do sensor de temperatura](Temp.png)
+![Conexão do sensor de temperatura](figs/Temp.png)
 
 Fonte: https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-sensor-de-temperatura-ntc-10k-3950-prova-dagua-do-tipo-sonda
 
 Este sensor é um thermistor simples e conta apenas com uma entrada para o 5V e outra para o ground. A entrada para o ground também é onde será feita a Leitura do sensor. Essa entrada deverá ser conectada em uma protoboard, conecta diretamente com a porta A0 do arduino e depois indiretamente no ground, passando por um resistor de 10k ohms.
+Este trabalho usa a biblioteca Thermistor, que está inclusa neste repositório, caso necessária.
