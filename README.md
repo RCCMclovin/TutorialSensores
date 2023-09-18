@@ -49,11 +49,9 @@ Para o segundo código, a variável valor_calibracao deve ser ajustada em uma su
 Fonte: https://www.usinainfo.com.br/blog/projeto-medidor-de-tds-arduino-para-condutividade-da-agua/
 
 A imagem mostra como o sensor é conectado na placa conversora e quais são as portas a serem conectadas no arduino.
-<<<<<<< HEAD
-### OBS: Diferente do exemplo, testes que fizemos com este sensor não funcionaram bem com 5v, use 3.3v, outras configurações são iguais.
-=======
 
->>>>>>> 7239d6dae9f0ef7648c228af500cb622b0e8a603
+### OBS: Diferente do exemplo, testes que fizemos com este sensor não funcionaram bem com 5v, use 3.3v, outras configurações são iguais.
+
 As entradas e saídas da placa conversora do sensor unsam um plug único para os três cabos que serão usados no arduino, cabe usar um adaptador para fazer essa conexão.
 
 A saída do sensor deverá ser conectada na porta A0 do arduino.
